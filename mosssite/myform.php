@@ -1,4 +1,3 @@
-
         <?php
         header('Location: http://sproing.us/mosssite/secret.html');
         $servername = "localhost";
