@@ -15,7 +15,7 @@
         $result = $conn->query($sql);
         $row = $result -> fetch_array(MYSQLI_NUM);
         if(password_verify($password,$row[0])){
-            header('Location: secret.html');
+            header('Location: http://sproing.us/mosssite/secret.html');
             exit;
         }
         ?>
