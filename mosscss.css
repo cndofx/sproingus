@@ -22,10 +22,7 @@ color:#B8C85A;
 text-align:center;
 font-weight:bolder;
 }
-html{
-height:100%;
-}
-.text-container img{
+.capy{
 float:right;
 margin:20px;
 }
@@ -47,17 +44,18 @@ margin:20px;
 color:#92C8FF; 
 }
 .text-container{
+    overflow:auto;
 margin:auto;
 padding:5px;
 max-width:1000px;
 width:70%;
 background-color:rgba(32, 71, 104, 0.75);
 }
-.image-container{
-float:right;
-width:50%;
+.tae{
+    float:left;
+    margin:20px;
+    max-height:100%;
 }
-.everythingcontainer{
-width:50%;
-margin:auto;
+img{
+    border-radius:10px;
 }
