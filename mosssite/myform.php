@@ -16,7 +16,8 @@
         $row = $result -> fetch_array(MYSQLI_NUM);
         if(password_verify($password,$row[0])){
             echo 'cool!';
-            header('Location: //secret.html');
+            header('Location: secret.html');
+            exit;
         }
         ?>
     </head>
