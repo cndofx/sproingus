@@ -1,5 +1,6 @@
         <?php
         header('Location: http://sproing.us/mosssite/secret.html');
+        echo 'hi';
         $servername = "localhost";
         $dbname = "myDB";
         $password=$_POST['password'];
