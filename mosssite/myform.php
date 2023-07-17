@@ -1,6 +1,4 @@
         <?php
-        header('Location: http://sproing.us/mosssite/secret.html');
-        echo 'hi';
         $servername = "localhost";
         $dbname = "myDB";
         $password=$_POST['password'];
@@ -15,7 +13,7 @@
         $result = $conn->query($sql);
         $row = $result -> fetch_array(MYSQLI_NUM);
         if(password_verify($password,$row[0])){
-            
+            header('Location: http://sproing.us/mosssite/secret.html');
             exit;
         }
         ?>
