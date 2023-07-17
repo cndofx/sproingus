@@ -1,5 +1,4 @@
-<html>
-    <head>
+
         <?php
         $servername = "localhost";
         $dbname = "myDB";
@@ -19,5 +18,3 @@
             exit;
         }
         ?>
-    </head>
-</html>
