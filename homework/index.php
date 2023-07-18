@@ -1,6 +1,6 @@
 <?php
 session_name('sesh');
-session_set_cookie_params(0, '/', '.sproing.us');
+session_set_cookie_params(0, '/', '.sproingus.com');
 session_start();
 if (!isset($_SESSION['loggedin'])) {
    header('Location: bad.html');
