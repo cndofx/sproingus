@@ -20,15 +20,15 @@ echo $_SESSION['loggedin'];
 <h1>secret art</h1>
 </div>
 <div class="text-box">
-<p>we hope you enjoy your stay</p>
+<p><b>we hope you enjoy your stay</b></p>
 </div>
 <div class="lower-title">
 <h1>gallery</h1>
 </div>
 <div class="art">
-<h2>takemi zone</h2>
-<img src="action.jpeg"/>
-<img src="takemi.jpeg">
+<h2>the zone</h2>
 </div>
+<img src="/img/action.jpeg"/>
+<img src="/img/takemi.jpeg">
 </body>
 </html>
