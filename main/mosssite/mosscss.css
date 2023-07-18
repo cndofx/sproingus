@@ -1,64 +1,77 @@
-.header{
-color:#F2EABE;
-font-weight:bold;
-text-align:center;
+.header {
+    color: #F2EABE;
+    font-weight: bold;
+    text-align: center;
 }
-.logo{
-float:left;
+
+.logo {
+    float: left;
 }
-.top-of-page{
-height:50px;
-padding:10px;
-background-color:rgba(32, 71, 104, 0.75);
-margin:10px;
+
+.top-of-page {
+    height: 50px;
+    padding: 10px;
+    background-color: rgba(32, 71, 104, 0.75);
+    margin: 10px;
 }
-.top-of-page p{
-text-align:center;
-float:left;
+
+.top-of-page p {
+    text-align: center;
+    float: left;
 }
-.big-header{
-margin-bottom:20px;
-color:#B8C85A;
-text-align:center;
-font-weight:bolder;
+
+.big-header {
+    margin-bottom: 20px;
+    color: #B8C85A;
+    text-align: center;
+    font-weight: bolder;
 }
-.capy{
-float:right;
-margin:20px;
+
+.capy {
+    float: right;
+    margin: 20px;
 }
-h1{
-font-size: 3em;	
+
+h1 {
+    font-size: 3em;
 }
-h2{
-margin:20px;
-font-size: 2em;
+
+h2 {
+    margin: 20px;
+    font-size: 2em;
 }
-html{
-    min-height:100%;
+
+html {
+    min-height: 100%;
 }
-body{
-font-size:24px;
-background-image:url("ocean.jpeg");
-background-size:cover;
-font-family:Helvetica;
+
+body {
+    font-size: 24px;
+    background-image: url("ocean.jpeg");
+    background-size: cover;
+    font-family: Helvetica;
 }
-p{
-margin:20px;
-color:#92C8FF; 
+
+p {
+    margin: 20px;
+    color: #92C8FF;
 }
-.text-container{
-    overflow:auto;
-margin:auto;
-padding:5px;
-max-width:1000px;
-width:70%;
-background-color:rgba(32, 71, 104, 0.75);
+
+.text-container {
+    overflow: auto;
+    margin: auto;
+    padding: 5px;
+    max-width: 1000px;
+    width: 70%;
+    background-color: rgba(32, 71, 104, 0.75);
 }
-.tae{
-    float:left;
-    margin:20px;
-    max-height:100%;
+
+.tae {
+    float: left;
+    margin: 20px;
+    max-height: 100%;
 }
-img{
-    border-radius:10px;
+
+img {
+    border-radius: 10px;
 }
