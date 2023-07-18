@@ -1,0 +1,36 @@
+body {
+    color: #cdd6f4;
+    background-color: #181825;
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+a {
+    color: #74c7ec;
+}
+
+a:hover {
+    color: #94e2d5;
+}
+
+.flex-container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.card {
+    background-color: #313244;
+    padding: 50px;
+    border-radius: 10px;
+    border: 2px solid #7f849c;
+}
+
+.card h1 {
+    margin-top: 0;
+}
