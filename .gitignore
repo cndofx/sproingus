@@ -1,1 +1,5 @@
-homework/img
+# homework/img
+/homework/
+!/homework/**/*.html
+!/homework/**/*.php
+!/homework/**/*.css
