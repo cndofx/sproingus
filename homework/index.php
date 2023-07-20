@@ -3,10 +3,13 @@ include 'dbconfig.php';
 session_name('sesh');
 session_set_cookie_params(0, '/', '.sproingus.com');
 session_start();
-// If the user is not logged in redirect to the login page...
 if (!isset($_SESSION['loggedin'])) {
    header('Location: bad.html');
    exit;
+echo 'hi';
+echo $_SESSION['loggedin'];
+
+// If the user is not logged in redirect to the login page...
 }
 ?>
 <!DOCTYPE html>
@@ -28,7 +31,7 @@ if (!isset($_SESSION['loggedin'])) {
 <h2>the zone</h2>
 </div>
 <form action="upload.php" method="post" enctype="multipart/form-data">
-	<input type="file" name="filetoupload" id="filetoupload">
+	<input type="file" name="filetoupload" id="filetoupload" value="choose file" size="48">
 	<input type="submit" name="submit">
 </form>
 <?php
